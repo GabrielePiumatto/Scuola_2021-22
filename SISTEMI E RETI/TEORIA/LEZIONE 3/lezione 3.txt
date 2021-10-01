@@ -1,0 +1,15 @@
+TIPI DI RETE
+
+La struttura a stella è la + usata, si usa sia su reti radio che su 
+reti cavo.
+
+METCALF --> fonda una legge
+
+se una rete ha n nodi, il valore della rete è n*(n-1) / 2
+
+ESEMPIO 
+
+n = 10
+
+10 * 9 / 2 = 90 / 2 = 45
+

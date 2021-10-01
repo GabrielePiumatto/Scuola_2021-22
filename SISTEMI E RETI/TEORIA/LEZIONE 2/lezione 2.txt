@@ -1,0 +1,49 @@
+NUMERO BINARIO A 16 BIT
+
+d = numero di cifre in base 10
+
+QUANTE CIFRE HA IL NUMERO IN BASE 10(d) ?
+
+2^16   =   10^d
+
+log10 2^16 = log10 10^d = d
+
+d = log10 2^16 = 16 log10 2 = 4 circa (4,81)
+
+n = s/t  <-->  s = n*t  <-->  t = s/n
+
+c = 300.000 km/sec (nel vuoto) :
+
+- LUCE FIBRA OTTICA (con buona approssimazione, non è vuoto)
+
+- ONDE RADIO 
+
+v = 2/3*c --> SEGNALI ELETTRICI
+
+
+ESEMPIO
+
+L= 300m
+c = 300.000km/sec
+
+V = 2/3 * 300.000km/s = 200.000.000 m/s
+t = L/v = 300m / 200.000.000 m/s = 1.5*10^-6 sec
+
+F = 4 GHz = 4*10^9 Hz
+N°istruzioni = F*t = 4*10^9 Hz * 1.5*10^-6 sec = 6*10^3
+
+DIMENSIONI RETE
+
+- PAN (Personal Area Network) = qualche metro, le più piccole, 
+  tipo Bluetooth, Hotspot, ZIGBEE (per comunicare tra mac e windows)
+- LAN (Local Area Network) = da 10 m a 1 km (stanza, edificio), quella 
+  della scuola, anche a casa.
+- MAN (Metropolitan Area Network) = estende attorno ai 10 km (una città),
+  rete per una smart city (già presenti), semafori intelligenti.
+- WAN (Wide Area Network) = da 10km a 10.000km (regione, stato, 
+  intercontinentale).
+- Internet -> la più basta, che ricopre tutto il mondo.
+
+APN --> server internet per telefonia mobile.
+Operatori di telefonia mobile gestiscono reti di tipo WAN.
+

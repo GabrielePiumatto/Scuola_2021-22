@@ -1,0 +1,13 @@
+simplex --> è unidirezionale, trasmette solo in una direzione.
+
+half duplex --> è bidirezionale, ma solo una volta terminato il messaggio
+può ritrasmettere
+
+duplex --> è bidirezionale, trasmette in entrambe le direzioni
+
+meccanismi di controllo dell'errore
+                |
+		V
+	  Error Control
+
+error correction error detection --> due tipi di error control

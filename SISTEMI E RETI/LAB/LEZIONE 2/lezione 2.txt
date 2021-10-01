@@ -1,0 +1,1 @@
+comando ping, serve per avere risposte dall'altro device interessato

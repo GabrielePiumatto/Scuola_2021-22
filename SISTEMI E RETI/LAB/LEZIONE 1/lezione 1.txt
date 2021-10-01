@@ -1,0 +1,18 @@
+SCHEDA DI RETE
+NIC (NETWORK INTERFACE CARD) 
+
+Queste due cose sono la stessa cosa
+
+IP address -> ogni volta che si cambia rete quest'indirizzo
+cambia (vengono forniti dalla rete).
+
+MAC address -> anche detto indirizzo fisico, da quando viene
+prodotta fino alla fine della sua vita ha quello (si potrebbe 
+cambiare).
+
+192.168.1.10
+
+i primi tre pezzi identificano la rete, l'ultimo il nostro computer.
+
+cavi cross -> da una parte i cavi sono in una disposizione, dall'altra sono
+invertiti

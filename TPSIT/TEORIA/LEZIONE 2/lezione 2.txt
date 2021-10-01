@@ -1,0 +1,50 @@
+puntatori --> passaggi per indirizzo
+
+indirizzi int a = 1
+
+puntatori --> indirizzi delle variabili in memoria
+
+operatore binario è un operatore che sis serve di 2 variabili
+
+operatore unario --> operatore che agisce su una sola variabile
+
+& : operatore che serve per passare dal mondo delle variabili 
+al mondo degli indirizzi
+
+* : operatore che serve per passare dal mondo degli indirizzi 
+al mondo degli variabili
+
+int *p;
+
+questo è un puntatore intero, l'indirizzo di una cella che può 
+contenere interi, solo interi, se si inserisse un float non 
+verrebbe accettato
+
+soluzione : float *p;
+
+ESEMPIO :
+
+int a = 1;
+int *p;
+
+p = &a; --> significa che il contenuto della variabile "a" è stato 
+salvato nel puntatore intero p
+
+int v = *p --> significa che nella var. "v" è stato salvato il contenuto 
+della cella di memoria con l'indirizzo contenuto in "*p"
+
+come %d serve a stampare interi %p serve a stampare i puntatori
+
+il valore del puntatore è l'indirizzo di una cella di memoria della RAM
+
+*p = 51;
+x--;
+
+x o *p (sono la stessa cosa) vale ora 50
+
+asterisco che si usa nella dichiarazioni ha un significato, quello nel main 
+ne ha tutto un altro
+
+int *pi; serve solo a dire puntatore intero
+
+*pi = 6; significa che all'intero della cella puntata da p inseriamo il valore 6

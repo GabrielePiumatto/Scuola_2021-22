@@ -1,0 +1,7 @@
+I PROTOCOLLI DI RETE
+
+Esempi : SSH, TCP, FTP, HTTP
+
+Protocol Stack --> Pila di Protocolli
+
+

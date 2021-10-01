@@ -1,0 +1,48 @@
+OPERAZIONI CON I PUNTATORI
+
+1) char *p;
+   int x;
+   ... p+x ...
+   ... p-x ...
+
+Aggiungo e sottraggo da un puntatore un numero intero
+
+2) char *p;
+   char *q;
+   ... p-q ...
+
+Se sommo 1 a puntatore, non so cosa ci sarà nella cella dopo
+char occupa un byte
+float occupa 4 byte (32 bit)
+int occupa 2 byte
+
+float a = 10.1;
+float *p = &a;
+
+In questo modo il puntatore p sta puntando alla cella di a
+
+q = p + 1;
+
+q punta alla cella dopo di p
+
+per ogni tipo di variabile si fa + 1
+
+VETTORE
+
+int vet[10];
+
+vet e &vet[0] hanno lo stesso valore, un indirizzo
+
+printf("%p %p", vet, &vet[0]);
+
+quest'istruzione stampa due volte lo stesso indirizzo
+
+*(pi + 3) = 28; --> significa che all'indice 3 del vettore
+		    verrà memorizzato il valore 28
+
+for (int i=0; i<n; i++) {
+	vet[i];
+	*(vet + i);
+	
+	queste due righe hanno lo stesso significato
+}

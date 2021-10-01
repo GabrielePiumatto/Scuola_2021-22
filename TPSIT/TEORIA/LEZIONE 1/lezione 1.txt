@@ -1,0 +1,4 @@
+VCS (Version Control Sistem) traccia tutta la storia dei cambiamenti
+applicati da una persona o un team che collaborano ad un progetto.
+
+Salva tutte le modifiche apportate ai file

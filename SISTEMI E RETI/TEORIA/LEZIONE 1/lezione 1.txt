@@ -1,0 +1,20 @@
+		   INSTAGRAM
+
+social network		  profilazione
+				
+				app
+  
+  comunicazione		   datacenter
+
+			    rete	
+    media			
+				dati
+	     webserver
+
+raccomandazione		   sito
+
+dentro il sistema operativo, non importa se è linux, android o ios, c'è il protocollo tcp/ip.
+
+ISP (Internet Service Provider), si collega a una backbone
+
+Backbone -> superconnessioni di internet (in italiano dorsale).
